@@ -1,6 +1,6 @@
 {
   "name": "Cloudflared DNS",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "slug": "cloudflared_dns",
   "description": "Cloudflared - TLS DNS",
   "url": "https://github.com/cdslashroot/addon-cloudflare-dns-tls",
