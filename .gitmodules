@@ -1,0 +1,3 @@
+[submodule "addon-cloudflare-dns-tls"]
+	path = addon-cloudflare-dns-tls
+	url = https://github.com/cdslashroot/addon-cloudflare-dns-tls
