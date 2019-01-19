@@ -8,6 +8,8 @@ RUN chmod a+x /run.sh
 
 RUN dpkg --add-architecture armhf
 
+RUN dpkg --add-architecture arm
+
 RUN apt-get update && apt-get install -y wget libc6:armhf libstdc++6:armhf
 
 RUN wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-arm.deb
