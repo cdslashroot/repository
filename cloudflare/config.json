@@ -1,1 +1,13 @@
-/addons/cloudflare/config.json
+{
+  "name": "Cloudflared DNS",
+  "version": "0.0.2",
+  "slug": "cloudflared_dns",
+  "description": "Cloudflared - TLS DNS",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "5053/tcp": 5053
+  }
+}
